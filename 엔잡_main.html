@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+		
+		<!-- js -->
+		<script src="js/vendor/jquery-3.6.1.min.js"></script>
+		<script src="js/vendor/aos.js"></script>
+
+		<!-- css -->
+		<link rel="stylesheet" href="css/common.css">
+
+		<title>엔잡 main</title>
+	</head>
+	<body>
+		<script>
+			AOS.init();
+
+			function respondCSS() {
+				var windowWidth = $(window).width();
+	
+				if (windowWidth < 780) {
+					$(document.body).addClass('mobile');
+					$(document.body).removeClass('desktop');
+				}
+				else {
+					$(document.body).addClass('desktop');
+					$(document.body).removeClass('mobile');
+				}
+			}
+			$(window).bind("orientationchange load resize", respondCSS);
+			respondCSS();
+		</script>
+		<div class="mainContents">
+			<section class="visualArea">
+				<div class="wrap">
+					<div class="visualText1">
+						<b>내보험</b> 제대로 알아보고
+						<span class="mobileBr"><b><em>돈</em></b>도 벌어보자</span> 
+					</div>
+					<div class="visualText2">
+						출퇴근 없는 부업!<br>
+						<em>열린 소득</em> 플랫폼
+					</div>
+					<div class="visualText3">
+						매월 추가소득 <em>100만원</em> <span class="mobileBr">도전 해보시겠나요?</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="section1">
+				<div class="wrap">
+					<div class="textWrap">
+						<h3 data-aos="fade-up">많은 분들이 함께 <span class="bg" data-aos="flip-left" data-aos-delay="300">N잡</span>을<br> 하고있습니다!</h3>
+						<p class="sectionText marT30" data-aos="fade-up" data-aos-delay="500">직장인, 부부, 자영업자 등등 누구든지 시작할 수있습니다.   
+						</p>
+					</div>
+
+					<div class="nJobList" data-aos="fade-up" data-aos-delay="300">
+						<div>
+							<img src="./img/nJob1.png" alt="">
+							<p>돈을  더 벌기위해  n잡하려고 하는</p>
+							<p class="name">직장인 김ㅇㅇ</p>
+						</div>
+						<div>
+							<img src="./img/nJob2.png" alt="">
+							<p>아이를 키우며 n잡하려고 하는</p>
+							<p class="name">주부 이ㅇㅇ</p>
+						</div>
+						<div>
+							<img src="./img/nJob3.png" alt="">
+							<p>가게를 꾸리기 위해 n잡하려고 하는</p>
+							<p class="name">자영업자 박ㅇㅇ</p>
+						</div>
+					</div>
+
+					<button type="button" class="counselingBtn"  data-aos="zoom-in" data-aos-delay="400">상담 먼저 받아보기</button>
+
+				</div>
+			</section>
+
+			<section class="section2">
+				<div class="wrap">
+					<div class="textWrap">
+						<h3 data-aos="fade-up"><span class="small">매년 가입하는<br></span>자동차 보험 가입부터<br>출발해보자!</h3>
+						<p class="sectionText marT50" data-aos="fade-up" data-aos-delay="300">
+							보험에는 의무보험인<br>
+							<span class="bg" data-aos="flip-left" data-aos-delay="800">자동차보험, 일반화재보험, 승강기보험</span><br>
+							가입 안 하면 과태료가 발생되는 보험이 있다.
+						</p>
+					</div>
+
+					<div class="imgWrap">
+						<img src="./img/bg_section2_bg.png" alt="" class="item0" data-aos="fade-up" data-aos-delay="300">
+						<img src="./img/bg_section2_item1.png" alt="" class="item1" data-aos="fade-up"
+						data-aos-anchor-placement="center-center" data-aos-delay="500">
+						<img src="./img/bg_section2_item2.png" alt="" class="item2" data-aos="fade-up" data-aos-delay="700">
+						<img src="./img/bg_section2_item3.png" alt="" class="item3" data-aos="fade-up" data-aos-delay="900">
+					</div>
+				</div>
+			</section>
+
+			<section class="section3">
+				<div class="wrap">
+					<div class="textWrap">
+						<p class="sectionText marB20">
+							<span class="bg" data-aos="flip-left" data-aos-delay="100">한달에 보험료 30만원</span> 이상 내고 <span class="mobileBr">있으신가요?</span>
+						</p>
+						<h3 data-aos="fade-up" data-aos-delay="300">예상 소득<br>250~300만원</h3>
+					</div>
+
+					<div class="imgWrap">
+						<img src="./img/bg_section3_item2.png" alt="" class="item2" data-aos="fade-up"data-aos-anchor-placement="center-center" data-aos-delay="200">
+						<img src="./img/bg_section3_item3.png" alt="" class="item3"	 data-aos="fade-up" data-aos-anchor-placement="center-center" data-aos-delay="300">
+					</div>
+				</div>
+			</section>
+
+			<section class="section4">
+				<div class ="wrap">
+					<div class="textWrap">
+						<p class="sectionText marB20">
+							<span class="bg" data-aos="flip-left" data-aos-delay="100">단 2주면 자격취득 소득활동 </span><span class="mobileBr">시작할수 있어요!</span>
+						</p>
+						<h3 data-aos="fade-up" data-aos-delay="300">온라인 강의, 모의고사 <br>설계사 등록까지 쉽고 빠르게!</h3>
+					</div>
+
+					<div class="imgWrap">
+						<img src="./img/bg_section4_item0.png" alt="" class="item0" data-aos="fade-zoom-in"
+						data-aos-easing="ease-in-back"
+						data-aos-delay="200"
+						data-aos-offset="0">
+						<img src="./img/bg_section4_item1.png" alt="" class="item1" data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="500" data-aos-delay="500">
+						<img src="./img/bg_section4_item2.png" alt="" class="item2" data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="500" data-aos-delay="800">
+						<img src="./img/bg_section4_item3.png" alt="" class="item3" data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="500" data-aos-delay="1100">
+						<img src="./img/bg_section4_item4.png" alt="" class="item4" data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="500" data-aos-delay="1400">
+						<img src="./img/bg_section4_item5.png" alt="" class="item5" data-aos="flip-left"
+						data-aos-easing="ease-out-cubic"
+						data-aos-duration="500" data-aos-delay="1700">
+					</div>
+				</div>
+			</section>
+
+			<section class="section5">
+				<div class="wrap">
+					<div class="textWrap">
+						<h3 data-aos="fade-up" data-aos-delay="100">자격증 합격시 <span class="mobileBr"><span class="bg" data-aos="flip-left" data-aos-delay="300">50만원</span> 지급</span></h3>
+					</div>
+
+					<div class="circleWrap">
+						<div class="circleItem" data-aos="flip-right" data-aos-delay="500">
+							<img alt="" src="./img/circle1.png">
+							<p>생명보험설계사합격<b>20만원!</b></p>
+						</div>
+						<img alt="" src="./img/circlePlus.png" class="circlePlus">
+						<div class="circleItem" data-aos="flip-right" data-aos-delay="900">
+							<img alt="" src="./img/circle2.png">
+							<p>손해보험설계사 합격<b>20만원!</b></p>
+						</div>
+						<img alt="" src="./img/circlePlus.png" class="circlePlus">
+						<div class="circleItem" data-aos="flip-right" data-aos-delay="1300">
+							<img alt="" src="./img/circle3.png">
+							<p>본인보험보장 분석시!<b>10만원!</b></p>
+						</div>
+					</div>
+					<p class="circleText">- 본인 보험 보장 분석시 10만시험 합격 후 협회 코드 등록</p>
+				</div>
+			</section>
+
+			<section class="section6">
+				<div class="wrap">
+					<div class="circleWrap">
+						<div class="circleItem" data-aos="zoom-in" data-aos-delay="300">
+							<img alt="" src="./img/circle4.png">
+							<p>내보험 설계<b>50 ~ 300만원</b></p>
+						</div>
+						<img alt="" src="./img/circlePlus.png" class="circlePlus">
+						<div class="circleItem" data-aos="zoom-in" data-aos-delay="600">
+							<img alt="" src="./img/circle5.png">
+							<p>자격증 합격시<b>50만원 지급</b></p>
+						</div>
+					</div>
+
+					<div class="imgWrap">
+						<div class="bubble" data-aos="flip-right" data-aos-delay="700">
+							자격증 합격 하고 내 보험 설계만 해도<br><b>350만원 소득 발생!</b>
+						</div>
+						<img src="./img/bg_section6.png" alt="" class="">
+					</div>
+				</div>
+			</section>
+
+			<section class="section7">
+				<div class="wrap">
+					<div class="textWrap">
+						<p class="sectionText" data-aos="fade-up" data-aos-delay="100">
+							나의 또 다른 직업 만들기</p>
+						<h3><span class="bg" data-aos="flip-left" data-aos-delay="300">N잡하기</span>에서 <span class="mobileBr">시작 하세요!</span></h3>
+					</div>
+					<div class="imgWrap">
+						<div class="bubble" data-aos="flip-right" data-aos-delay="700">
+							<b>도전</b>해 보세요!
+						</div>
+						<img src="./img/bg_section7.png" alt="" class="">
+					</div>
+					
+				</div>
+			</section>
+		</div>
+
+		<footer>
+			<div class="wrap">
+				<div class="footer-info">
+					<ul>
+						<li><a href="#none">N잡하기</a></li>
+						<li><a href="#none">인슈어런스</a></li>
+						<li><a href="#none">개인정보처리방침</a></li>
+						<li><a href="#none">이용약관</a></li>
+						<li>서울시 강남구 사업자등록번호 154-84-15780</li>
+						<li><a href="tel:1588-3444">고객센터 1588-3444</a></li>
+					</ul>
+				</div>
+				<h2>주식회사 메가</h2>
+			</div>
+		</footer>
+	</body>
+
+</html>

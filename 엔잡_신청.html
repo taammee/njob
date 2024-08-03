@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+		
+		<!-- js -->
+		<script src="js/vendor/jquery-3.6.1.min.js"></script>
+
+		<!-- css -->
+		<link rel="stylesheet" href="css/common.css">
+
+		<title>엔잡 신청</title>
+	</head>
+	<body style="background-color: #eee;">
+		<div id="applicationWrap">
+			<h2>엔잡하기 신청</h2>
+			<div class="textWrap">
+				빠른 상담을 위해				
+				<p class="big">최소한의 정보만 받고 있어요</p>
+			</div>
+
+			<div class="applicationArea">
+				<div class="inputWrap _es">
+					<label for="name">이름</label>
+					<div class="inputArea">
+						<input type="text" placeholder="예)홍길동" id="name">
+					</div>
+				</div>
+				
+				<div class="inputWrap _es">
+					<label for="number">휴대전화</label>
+					<div class="inputArea">
+						<input type="text" placeholder="-를 제외한 번호만 입력해주세요" id="number">
+					</div>
+				</div>
+
+				<div class="inputWrap _es">
+					<label for="location">지역</label>
+					<div class="inputArea">
+						<select>
+							<option>시/도</option>
+							<option>시/도</option>
+							<option>시/도</option>
+							<option>시/도</option>
+							<option>시/도</option>
+						</select>
+						<select>
+							<option>시/군/구</option>
+							<option>시/도</option>
+							<option>시/도</option>
+							<option>시/도</option>
+							<option>시/도</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="inputWrap _es">
+					<label for="time">상담가능시간</label>
+					<div class="inputArea">
+						<select id="time">
+							<option value="시간을 선택해 주세요">시간을 선택해 주세요</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="inputWrap _es">
+					<label for="age">연령대</label>
+					<div class="inputArea">
+						<select id="age">
+							<option value="연령대를 선택해주세요">연령대를 선택해주세요</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="inputWrap _es">
+					<label for="job">직업</label>
+					<div class="inputArea">
+						<select id="job">
+							<option value="직업을 선택해주세요">직업을 선택해주세요</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="checkWrap">
+					<div class="checkArea _under">
+						<input type="checkbox" id="termAll">
+						<label for="termAll">약관에 전체 동의합니다</label>
+					</div>
+					<div class="checkArea">
+						<input type="checkbox" id="termEs">
+						<label for="termEs">개인정보 수집 미치 이용안내 동의 (필수)</label>
+					</div>
+					<div class="checkArea">
+						<input type="checkbox" id="termCh">
+						<label for="termCh">채용상담서비스의 정보수신 동의 (선택)</label>
+					</div>
+				</div>
+			</div>
+			<div class="btnArea">
+				<div class="textArea">
+					거의 완료되었어요!<br>신청 완료하면 부수입 챙길 준비 끝!
+					<button class="applicationBtn">신청 완료</button>
+				</div>
+			</div>
+
+
+
+			<button type="button" class="applicationCloseBtn"></button>
+		</div>
+	</body>
+
+</html>
